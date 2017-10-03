@@ -4,10 +4,6 @@ import java.util.ArrayList;
 
 public class Generics {
     public static void main(String[] args) {
-        String[] arr = new String[] {"tgr", "dwfdwfd", "f", "fd", "dwfdfffwgfhtg", "hgaa", "fhytre", "aafghbv"};
-        MemoryCell<String> cell = new MemoryCell();
-        String result = cell.min(arr);
-        System.out.println(result);
     }
 
     public static double totalArea(ArrayList<? extends Shape> arr) {
