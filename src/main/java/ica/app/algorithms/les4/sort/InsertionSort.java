@@ -11,7 +11,6 @@ public class InsertionSort<T> implements SortAlgorithm<T> {
         T temp;
         for (int i = 1; i < a.length; i++) {
             for (int j = i; j > 0; j--) {
-                int b = a[j].compareTo(a[j-1]);
                 if(a[j].compareTo(a[j-1]) < 0) {
                     temp = a[j];
                     a[j] = a[j - 1];
